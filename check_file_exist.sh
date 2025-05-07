@@ -2,7 +2,7 @@
 # Ce script vérifie si un fichier existe
 
 # Demander le nom du fichier
-echo "Entrez le nom du fichier : "
+echo "Entrez le nom du fichier :"
 read fichier
 
 # Vérifier si le fichier existe
@@ -11,3 +11,5 @@ if [ -f "$fichier" ]; then
 else
     echo "Le fichier '$fichier' n'existe pas."
 fi
+
+exit 0
